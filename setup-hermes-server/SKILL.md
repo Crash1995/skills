@@ -104,7 +104,7 @@ scripts/start_desktop_bridge.sh --host HOST
 - For profile role files and workspace `AGENTS.md`, read `references/profile-templates.md`.
 - For Kanban and dashboard operation, read `references/kanban-dashboard.md`.
 - For connecting local/desktop Hermes to a remote Hermes server, read `references/local-desktop-bridge.md`.
-- For subscriber handoff/intake, read `references/subscriber-intake.md`; ask only for server IP and server password by default.
+- For user handoff/intake, read `references/user-intake.md`; ask only for server IP and server password by default.
 - For OpenAI Codex login/device auth, read `references/openai-codex-oauth.md`.
 - For support triage by symptom, read `references/failure-matrix.md`.
 - For common failures and exact recovery commands, read `references/troubleshooting.md`.

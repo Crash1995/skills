@@ -1,7 +1,7 @@
 interface:
   display_name: "Setup Hermes Server"
   short_description: "Set up or repair Hermes server, gateway, and desktop bridge"
-  default_prompt: "Use $setup-hermes-server to configure or repair Hermes Agent on a VPS. For subscriber installs, ask only for server IP and server password by default. Select a narrow mode first: full bootstrap, Telegram-only, browser/web-only, desktop-to-server bridge, OpenAI Codex OAuth, or single-symptom repair. Start support with fast_doctor.sh, use failure-matrix.md for minimal fixes, prefer host/no-Docker execution unless Docker is explicitly requested, keep dashboard/API behind SSH tunnels, use bundled scripts such as bootstrap_no_docker.sh, smoke_telegram_bot.sh, smoke_browser_web.sh, and start_desktop_bridge.sh, and verify only the selected scope."
+  default_prompt: "Use $setup-hermes-server to configure or repair Hermes Agent on a VPS. For user installs, ask only for server IP and server password by default. Select a narrow mode first: full bootstrap, Telegram-only, browser/web-only, desktop-to-server bridge, OpenAI Codex OAuth, or single-symptom repair. Start support with fast_doctor.sh, use failure-matrix.md for minimal fixes, prefer host/no-Docker execution unless Docker is explicitly requested, keep dashboard/API behind SSH tunnels, use bundled scripts such as bootstrap_no_docker.sh, smoke_telegram_bot.sh, smoke_browser_web.sh, and start_desktop_bridge.sh, and verify only the selected scope."
 
 policy:
   allow_implicit_invocation: true

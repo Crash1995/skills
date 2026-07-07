@@ -14,7 +14,7 @@ repair              one named failure only
 
 For any mode except `full-bootstrap`, skip profiles, Kanban, dashboard build, and broad health checks unless they are directly required by the symptom.
 
-For subscriber installs, read `subscriber-intake.md` first. Default intake is only:
+For user installs, read `user-intake.md` first. Default intake is only:
 
 ```text
 server_ip

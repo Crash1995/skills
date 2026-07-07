@@ -1,6 +1,6 @@
-# Subscriber Intake
+# User Intake
 
-Use this when setting up Hermes for a subscriber or non-technical user.
+Use this when setting up Hermes for a user or non-technical operator.
 
 ## Default Intake
 
@@ -41,7 +41,7 @@ After login, run the safe inventory from `runbook.md`.
 
 Do not print passwords, `.env`, tokens, auth files, seed phrases, private keys, or cookies.
 
-If the subscriber pastes secrets into chat, do not repeat them back. Refer to them by purpose:
+If the user pastes secrets into chat, do not repeat them back. Refer to them by purpose:
 
 ```text
 server password received
@@ -59,7 +59,7 @@ Ask for more only when necessary:
 - Domain/DNS: only when the user explicitly wants a public domain.
 - SSH key: only if password login is disabled.
 
-## Subscriber-Friendly Stop Report
+## User-Friendly Stop Report
 
 End with a short status:
 

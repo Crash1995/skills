@@ -1,6 +1,6 @@
 # Failure Matrix
 
-Use this after `scripts/fast_doctor.sh` or when a subscriber reports a symptom. Apply the smallest matching fix and stop after verification.
+Use this after `scripts/fast_doctor.sh` or when a user reports a symptom. Apply the smallest matching fix and stop after verification.
 
 | Symptom or verdict | Likely cause | Check | Minimal fix | Verify |
 | --- | --- | --- | --- | --- |
@@ -21,4 +21,4 @@ Use this after `scripts/fast_doctor.sh` or when a subscriber reports a symptom. 
 - Do not run full bootstrap for a single repair verdict.
 - Do not expose dashboard/API publicly to fix local access.
 - Do not switch model providers to bypass OpenAI Codex OAuth.
-- Do not ask for more subscriber data unless the matrix fix requires a user-owned token or device auth action.
+- Do not ask for more user data unless the matrix fix requires a user-owned token or device auth action.

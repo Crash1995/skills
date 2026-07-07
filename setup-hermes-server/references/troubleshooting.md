@@ -2,7 +2,7 @@
 
 Use this before changing more than one thing. Read the exact symptom, identify the layer, then run one minimal verification.
 
-For subscriber support, start with:
+For user support, start with:
 
 ```bash
 scripts/fast_doctor.sh

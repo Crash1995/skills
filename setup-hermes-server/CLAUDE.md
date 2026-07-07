@@ -26,9 +26,9 @@ Select exactly one mode before acting:
 
 If the user narrows scope, stop unrelated work immediately.
 
-## Subscriber Defaults
+## User Defaults
 
-For subscriber installs, ask only for:
+For user installs, ask only for:
 
 ```text
 server_ip
