@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Coder"
+  short_description: "Run grill, spec, tickets, implementation, and review"
+  default_prompt: "Use $ai-coder to take this feature from raw idea to reviewed implementation."
