@@ -23,7 +23,7 @@ grill-with-docs  →  to-spec  →  to-tickets  →  implement
 ## Что в папке
 
 ```
-like_mattpocock/
+./
 ├── ai-coder/
 ├── grill-with-docs/
 ├── to-spec/
@@ -33,8 +33,7 @@ like_mattpocock/
 ```
 
 Основа взята из [github.com/mattpocock/skills](https://github.com/mattpocock/skills),
-ветка `main`, коммит `bb8fdc3`, 6 августа 2026. Лицензия MIT сохранена в
-`LICENSE-mattpocock`. Подробная атрибуция — в `NOTICE.md`.
+ветка `main`, коммит `bb8fdc3`, 6 августа 2026.
 
 Этот репозиторий не является официальным релизом Мэтта Покока. Это практический
 пакет под ролик: только скиллы, которые фигурируют в видео, и добавленный
@@ -45,7 +44,7 @@ like_mattpocock/
 
 ## Установка в проект
 
-Склонируйте репозиторий и скопируйте содержимое `like_mattpocock/` в папку скиллов
+Склонируйте репозиторий и скопируйте содержимое этой папки в папку скиллов
 проекта.
 
 ```bash
@@ -60,14 +59,14 @@ cd skills-matt
 
 ```bash
 mkdir -p /путь/к/проекту/.agents/skills
-cp -R like_mattpocock/* /путь/к/проекту/.agents/skills/
+cp -R */ /путь/к/проекту/.agents/skills/
 ```
 
 Для Claude Code:
 
 ```bash
 mkdir -p /путь/к/проекту/.claude/skills
-cp -R like_mattpocock/* /путь/к/проекту/.claude/skills/
+cp -R */ /путь/к/проекту/.claude/skills/
 ```
 
 Если ваш агент использует другую папку для скиллов, копируйте туда.
@@ -162,6 +161,3 @@ $ai-coder дальше
 ## Лицензия
 
 Адаптация пакета распространяется под MIT, см. `LICENSE`.
-
-Оригинальные скиллы Мэтта Покока распространяются под MIT, см.
-`LICENSE-mattpocock` и `NOTICE.md`.
